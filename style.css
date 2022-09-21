@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h4 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h5 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h6 {
+  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding: 50px;
+}
+
+#encavezado {
+  display: inline;
+}
+
+.navegador {
+  background-color: #444;
+  justify-content: space-around;
+  padding-left: 50px;
+  font-size: 30px;
+  display: flex;
+}
+.menu_list {
+  margin-top: 20px;
+  text-align: center;
+}
+.list_item {
+  display: inline-block;
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: cyan;
+}
+
+.link:hover {
+  background-color: gray;
+  color: gold;
+}
+
+.Titulo_Principal {
+  padding-left: 50px;
+}
+
+.negrita {
+  background-color: #e9ecef;
+  border: 0;
+}
+
+.cursiva {
+  background-color: #dee2e6;
+}
+
+.fondo {
+  background-color: #ffa8a8;
+}
+@media (max-width: 1300px) {
+}
